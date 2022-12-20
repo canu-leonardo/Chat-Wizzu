@@ -1,0 +1,27 @@
+.list-cell{ 
+    -fx-background-color: transparent;
+    -fx-max-width: 470px;
+}
+
+.User{ 
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-border-color:  #031926;
+    -fx-border-width: 0 0 1 0;
+}
+
+.myMessage{
+    -fx-alignment: center-right;
+    -fx-background-radius: 50px; 
+    -fx-background-color: #0C6497; 
+    -fx-text-fill: white; 
+    -fx-padding: 0 20 0 20;
+}
+
+.OthersMessage{
+    -fx-alignment: center-right;
+    -fx-background-radius: 50px; 
+    -fx-background-color: #F7B538; 
+    -fx-text-fill: black; 
+    -fx-padding: 0 20 0 20;
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="PAGE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #031926;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.samu.leo.ControllerLogIn">
+   <children>
+      <ImageView fx:id="LOGO" disable="true" fitHeight="170.0" fitWidth="140.0" layoutX="330.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@./Resources/Logo.png" />
+         </image>
+         <effect>
+            <DropShadow offsetY="10.0" spread="0.27">
+               <color>
+                  <Color opacity="0.4141337275505066" />
+               </color>
+            </DropShadow>
+         </effect>
+      </ImageView>
+      <Label id="Nome" fx:id="NOME_CHAT" alignment="CENTER" layoutX="273.0" layoutY="252.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="254.0" style="-fx-background-color: #0C6497; -fx-background-radius: 50px;" stylesheets="@./Resources/style.css" text="Wizzu" textFill="#f7b538">
+         <font>
+            <Font name="Goudy Old Style Bold" size="39.0" />
+         </font>
+         <effect>
+            <DropShadow offsetY="10.0" radius="11.754999999999999" width="28.02">
+               <color>
+                  <Color opacity="0.42249244451522827" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Label>
+      <TextField fx:id="IN_NICKNAME" layoutX="200.0" layoutY="378.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="400.0" style="-fx-background-radius: 50px; -fx-border-radius: 50px; -fx-border-color: #F7B538; -fx-border-width: 9px; -fx-border-insets: -8px;" />
+      <Button fx:id="INVIO" alignment="CENTER_RIGHT" layoutX="330.0" layoutY="457.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #F7B538; -fx-background-radius: 50px; -fx-padding: 0px 35px 0px 0px;" text="Entra" textFill="#031926">
+         <effect>
+            <DropShadow offsetY="10.0">
+               <color>
+                  <Color opacity="0.5265957713127136" />
+               </color>
+            </DropShadow>
+         </effect>
+         <font>
+            <Font name="Goudy Old Style Bold" size="21.0" />
+         </font>
+      </Button>
+      <Label fx:id="NICKNAME_ESITO" alignment="CENTER" contentDisplay="CENTER" layoutX="287.0" layoutY="313.0" prefHeight="50.0" prefWidth="227.0" text="Inserisci il tuo nome in codice" textFill="#f7b538" textOverrun="CLIP" wrapText="true">
+         <font>
+            <Font name="Goudy Old Style Bold" size="16.0" />
+         </font>
+      </Label>
+      <ImageView disable="true" fitHeight="32.0" fitWidth="50.0" focusTraversable="true" layoutX="345.0" layoutY="466.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Resources/beer.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="InfoButton" layoutX="720.0" layoutY="14.0" mnemonicParsing="false" style="-fx-background-color: #F7B538; -fx-background-radius: 50px;" text="? Info">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

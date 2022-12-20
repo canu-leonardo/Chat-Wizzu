@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #031926 #031926;" xmlns="http://javafx.com/javafx/13" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.samu.leo.ControllerInfo">
+   <children>
+      <Label layoutX="31.0" layoutY="25.0" prefHeight="320.0" prefWidth="739.0" text="Una comoda applicazione di chat da usare con i prorpi amici. Wizzu è ben altro che soli codici, stringe e metodi... è magia, all'interno tutto avviene per magia. Con Wizzu potrete entrare dentro un mondo di fantasia e parlare con i vostri amici immersi dal calore di un dolce fuoco in una accolgiente taverna. le regole sono semplici: 1 prima di entrare bisogna sempre dichiarare un nome in codice e ordinare una birra, 2 per scrivere ad una singola persona nella taverna sarete dotati di carta e inchiostro, in cui potrete scrivere una lettera al vostro desitnatario e inviargliela attraverso una bacchetta magica, 3 usciti dalla taverna, ciò che è stato detto nella taverna rimane nella taverna, ricordatevi sempre saluatare sempre l'uomo che ti dà da bere. how to: bacchetta per inviare, la lista dei partecipanti è sulla tua sinistra, il pulsante X della finestra per uscire dall'applicazione." textFill="WHITE" wrapText="true" />
+      <Button fx:id="BACK_TO_ENTRATA" layoutX="275.0" layoutY="448.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="250.0" style="-fx-background-color: #F7B538; -fx-background-radius: 50px;" text="Torna all'entrata">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
