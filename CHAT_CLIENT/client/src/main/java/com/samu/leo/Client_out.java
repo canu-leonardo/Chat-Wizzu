@@ -23,7 +23,7 @@ public class Client_out {
     public Socket connetti(){       
 
         try {
-            this.socket = new Socket("10.22.9.5", 7777);    //inizializzo la connessione con il server creando il socket
+            this.socket = new Socket("localhost", 7777);    //inizializzo la connessione con il server creando il socket
             Client_out.meMedesimo.setSocket(socket);
             this.outVersoIlServer   = new DataOutputStream(socket.getOutputStream());   //Instanzio lo stream di scrittura
             this.ascoltatore.start();   //avvio il tread ascoltatore
